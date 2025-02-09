@@ -121,3 +121,7 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+# exec.enabled indicates whether the UI exec feature is enabled. It is disabled by default.
+# Ref: https://argo-cd.readthedocs.io/en/latest/operator-manual/rbac/#exec-resource
+exec.enabled: "true"
